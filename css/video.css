@@ -9,7 +9,7 @@
 .bg-video video {
     height: 80vh;
     width: 100%;
-    position: absolute;
+    justify-content: center;
     top: 75px;
     left: 0;
     object-fit: cover;
