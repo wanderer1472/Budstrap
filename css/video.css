@@ -1,5 +1,5 @@
 .bg-video {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -7,10 +7,10 @@
     
 }
 .bg-video video {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     justify-content: center;
-    top: 75px;
+    top: 0;
     left: 0;
     object-fit: cover;
     z-index: 1;
