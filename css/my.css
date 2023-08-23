@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(90deg, #605a83 0%, #515180 0%, #000000 100%);
+	font-style: italic;
+}
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(142, 143, 142);
+}
+.navbar-brand img {
+    filter: drop-shadow(9px 7px 21px #000);
+}
+.logo {
+    width: 50px;
+}
+.navbar-toggler {
+    background-color: rgb(142, 143, 142);
+}
+.card {
+    box-shadow: 7px -3px 14px 7px #000;
+    margin-top: 20px;
+    color: rgb(91, 172, 145);
+    background: linear-gradient(90deg, #605a83 0%, #000000 0%, #515180 100%);
+}
+.sidbar {
+    color: rgb(91, 172, 145);
+    
+}
+.opis, 
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+.carousel-caption {
+    color: rgb(255, 255, 255);
+    margin: auto auto;
+    
+}
+footer {
+    background:linear-gradient(90deg, #605a83 0%, #000000 0%, #515180 100%);
+    
+}
+.help {
+    color: aquamarine;
+}
+.ps-anim {
+    animation: ps 2s ease 0s infinite normal forwards;
+}
+@keyframes ps {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+.button {
+    margin-top: 60px;
+}
